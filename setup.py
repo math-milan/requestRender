@@ -5,9 +5,9 @@ with open("README.md") as f:
 
 setup(
     name="requestRender",
-    version="0.0.1",
+    version="0.0.2",
     description="A PyPI package that provides a simple headless Selenium web browser for scraping wrapper around reactive websites.",
-    py_modules=["requestRender"],
+    packages=["requestRender"],
     package_dir={"": "src"},
 
     maintainer="Milan Lovis Ramthun",
@@ -25,10 +25,12 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "License :: OSI Aproved :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"
     ],
     
     long_description=long_description,
-    long_description_content_type="text/markdown"
+    long_description_content_type="text/markdown",
+
+    url="https://github.com/math-milan/requestRender"
 )
