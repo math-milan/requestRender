@@ -25,7 +25,7 @@ with open("index.html", "w", encoding="utf-8") as f:
     f.write(html)
 ```
 
-# What needs to Improve
+# What needs to improve
 
 1. The logging off the Browser needs be disabeld.
 2. A methode to determin if a website has loaded fully. At the moment the software just waits a 3 Seconds.
