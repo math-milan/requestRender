@@ -1,5 +1,5 @@
 # requestRender
-A PyPI package that provides a simple headless Selenium web browser for scraping wrapper around reactive websites.
+This PyPI package offers a straightforward, headless Selenium web browser designed for scraping reactive websites. It proves beneficial when you require the use of requests but need to render certain sites to retrieve their JavaScript or PHP rendered content. An alternative project capable of accomplishing this task is request-html; however, it is currently unmaintained and non-functional. This is my bad attempt to provide a package with a similar function
 
 # How to install it
 ```
