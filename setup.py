@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setup(
     name="requestRender",
-    version="0.0.2",
+    version="0.0.3",
     description="A PyPI package that provides a simple headless Selenium web browser for scraping wrapper around reactive websites.",
     packages=["requestRender"],
     package_dir={"": "src"},
